@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img alt="Responsivo" src="./github/captura2.png" width="100%">
+  <img alt="Responsivo" src="./github/captura2.png" width="200px">
 </p>
 
 ## :rocket: Tecnologias
