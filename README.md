@@ -1,6 +1,6 @@
 
 <h1 align = "center" fontSize="60px">
- Recriando a interface do <a href="https://www.netflix.com/">Netflix com HTML e CSS</a>
+ Recriando a interface do <a href="https://www.netflix.com/">Netflix</a> com HTML e CSS
 </h1>
 
 <p align="center">
