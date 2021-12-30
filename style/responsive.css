@@ -1,16 +1,28 @@
-@media screen and (max-width:700px) {
-    header .container {
+@media screen and (max-width:900px) {
+    header .nav-container {
         display: flex;
         flex-direction: column;
+        padding: 10px 0px !important;
     }
-    .botao {
+    .nav-container .secondary-navigation {
+        display: none !important;
+    }
+    .sinopses {
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 80px;
+        max-width: 90% !important;
+    }
+    .logo-desc {
+        width: 200px;
+        align-items: center;
+    }
+    .play {
         margin-top: 5px;
         width: 300px;
     }
-}
-
-@media screen and (min-width:1000px) {
-    .descricao {
-        width: 50%;
+    .info {
+        margin-top: 5px;
+        width: 300px;
     }
 }

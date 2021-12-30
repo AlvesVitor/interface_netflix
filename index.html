@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8d3bce7987.js" crossorigin="anonymous"></script>
 
+    <!-- FONTS GOOGLE -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- FONT ICON -->
+    <link rel="stylesheet" type="text/css" href="style/fontawesome.all.min.css">
+
     <link rel="stylesheet" href="style/main.css">
 
     <!--owl css-->
@@ -21,66 +27,178 @@
 
 <body>
     <header>
-        <div class="container">
-            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png" alt="" />
-            <nav>
-                <a href="a">Início</a>
-                <a href="a">Séries</a>
-                <a href="a">Filmes</a>
-                <a href="a">Documentários</a>
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="#"><img src="./img/netflix-logo.png" alt="Netflix Clone"></a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Séries</a></li>
+                    <li><a href="#">Filmes</a></li>
+                    <li><a href="#">Mais recentes</a></li>
+                    <li><a href="#">Minha lista</a></li>
+                </ul>
             </nav>
-        </div>
+            <div class="secondary-navigation">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#" class="profile-change">Infantil</a>
+                <a href="#"><i class="fas fa-gift"></i></a>
+                <a href="#"><i class="fas fa-bell"></i></a>
+                <a href="#"><img src="./img/account.png"></a>
+            </div>
+        </nav>
 
     </header>
 
     <main>
-        <div class="filme-principal">
-
+        <div class="featured-film">
             <div class="container">
-                <h3 class="titulo">Attack on Titan</h3>
-                <p class="descricao">A batalha de Eren Jäeger contra os Titãs segue sem trégua. Determinado a se vingar, ele usará um segredo para atordoar o inimigo e contará com a ajuda do Regimento para destruir os Titãs de uma vez por todas..</p>
+                <div class="sinopses">
+                    <img class="logo-desc" src="https://cdn.freelogovectors.net/wp-content/uploads/2021/08/attackontitanlogo-freelogovectors.net_.png" alt="Matrix Logo">
+                    <p class="description">Eren Yeager (Haruma Miura) vive em um mundo rodeado por enormes muralhas para se proteger de criaturas gigantescas, os Titãs, que anos atrás realizaram uma verdadeira carnificina na cidade.</p>
+                    <div class="buttons">
+                        <button class="play"><i class="fa fa-play" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Assistir</button>
+                        <button class="info"><i class="fas fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Mais informações</button>
+                    </div>
+                </div>
 
-                <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fas fa-play"></i>
-                            ASSISTIR AGORA
-                        </button>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
-                            MAIS INFORMAÇÕES
-                        </button>
+
+                <h3 class="header-title">Populares na Netflix</h3>
+                <div class="rank-carousel">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-1.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-2.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-3.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-4.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-5.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-6.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-7.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-8.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-9.webp">
+                        </div>
+                        <div class="item">
+                            <img class="box-art" src="./img/thumbs/mini-thumb-10.webp">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <div class="carrosel-filmes">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="img/f1.jpg" alt="Filme1" class="box-filme">
+    <section class="slider">
+        <div class="container">
+            <h3 class="header-title">Em alta</h3>
+            <div class="rank-carousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-11.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-12.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-13.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-14.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-15.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-16.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-17.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-18.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-19.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-20.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-21.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-22.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-23.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-24.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/mini-thumb-25.jpg">
+                    </div>
+                </div>
             </div>
-            <div class="item">
-                <img src="img/f2.jpg" alt="Filme1" class="box-filme">
-            </div>
-            <div class="item">
-                <img src="img/f3.jpg" alt="Filme1" class="box-filme">
-            </div>
-            <div class="item">
-                <img src="img/f4.jpg" alt="Filme1" class="box-filme">
-            </div>
-            <div class="item">
-                <img src="img/f5.jpg" alt="Filme1" class="box-filme">
-            </div>
-            <div class="item">
-                <img src="img/f6.jpg" alt="Filme1" class="box-filme">
+
+            <h3 class="header-title">Continuar assistindo</h3>
+            <div class="rank-carousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb1.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb2.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb3.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb4.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb5.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb6.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb7.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb8.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb9.webp">
+                    </div>
+                    <div class="item">
+                        <img class="box-art" src="./img/thumbs/big-thumb10.webp">
+                    </div>
+                </div>
             </div>
 
         </div>
-    </div>
+    </section>
 
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="./js/index.js"></script>
 
 </body>
 
